@@ -38,7 +38,7 @@ ul {
     height: 100px;
     margin-top: 6px;
     margin-left: 6px;
-    background: url(/images/my-icon.png) no-repeat;  
+    background: url(../images/my-icon.png) no-repeat;  
 }
 
 .apps {
@@ -47,7 +47,7 @@ ul {
     height: 100px;
     margin-top: 6px;
     margin-left: 6px;
-    background: url(/images/apps-icon.png) no-repeat;  
+    background: url(../images/apps-icon.png) no-repeat;  
 }
 
 /* Menu Div */
