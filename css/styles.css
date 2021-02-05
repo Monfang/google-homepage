@@ -1,7 +1,56 @@
+
+/* Global */
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Navigation DIV */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: #5F6368;
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 12px;
+    padding-right: 12px;
+    text-decoration: none;
+    font-size: 13px;
+  }
+  
+  li a:hover:not(.active) {
+    text-decoration-line: underline;
+  }
+
+  .my-icon {
+    text-indent: -9999px;
+    width: 50px;
+    height: 100px;
+    margin-top: 6px;
+    margin-left: 6px;
+    background: url(/images/my-icon.png) no-repeat;  
+}
+
+.apps {
+    text-indent: -9999px;
+    width: 50px;
+    height: 100px;
+    margin-top: 6px;
+    margin-left: 6px;
+    background: url(/images/apps-icon.png) no-repeat;  
+}
+
+/* Menu DIV */
 .main {
     text-align: center;
     padding: 300px;
@@ -26,8 +75,8 @@ body {
 }
 
 .search-bar:hover{
-    box-shadow: 0 1px 6px 0 rgb(32 33 36 / 28%);
-    border-color: rgba(223, 225, 229, 0);
+    box-shadow: 0 1px 6px 0 rgb(32 33 36 / 25%);
+    border-color: #DFE1E5;
 }
 
 .search {
