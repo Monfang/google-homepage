@@ -1,0 +1,6 @@
+/* CSS for Tablet View */
+
+/*Can be used to hide any element in tablet view*/
+.hide_tablet {
+    display: none;
+    }

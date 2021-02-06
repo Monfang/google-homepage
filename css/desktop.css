@@ -1,0 +1,6 @@
+/* CSS for Desktop View */
+
+/*Can be used to hide any element in desktop view*/
+.hide_desktop {
+    display: none;
+    }

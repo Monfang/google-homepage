@@ -1,0 +1,6 @@
+/* CSS for Mobile View */
+
+/*Can be used to hide any element in mobile view*/
+.hide_mobile {
+    display: none;
+    }
