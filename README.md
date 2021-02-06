@@ -1,4 +1,4 @@
-The Odin Project: Fundamentals - Google Homepage 
+## The Odin Project: Fundamentals - Google Homepage 
 
 This project involved looking at the google.com homepage and re-creating it visually. 
 
@@ -9,5 +9,6 @@ Steps taken to achieve this outcome:
 4. Added the main elements to index.html incluing the logo, search bar with appropriate icons and buttons to search
 5. Added the navigation bar including a link to my GitHub
 6. Added the footer navigation
+7. Added code to make the site responsive for mobile and tablet
 
 

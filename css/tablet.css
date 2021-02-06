@@ -4,3 +4,32 @@
 .hide_tablet {
     display: none;
     }
+
+/* Menu Div */
+.main {
+    padding-top: 200px;
+}
+
+.logo {
+    padding: 1em;
+    max-width: 100%;
+    height: auto;
+}
+
+
+.search-bar {
+    width: 500px;
+    height: 50px;
+    min-width: 50px;
+
+}
+
+/* Footer Div */
+
+.footer {
+    bottom: 0;
+}
+
+.footer-bottom-row {
+    float:right;
+}

@@ -4,3 +4,35 @@
 .hide_mobile {
     display: none;
     }
+
+/* Menu Div */
+.main {
+    padding-top: 20%;
+}
+
+.logo {
+    padding: 1em;
+    max-width: 80%;
+    height: auto;
+}
+
+.search-bar {
+    width: 95%;
+    height: 50px;
+    min-width: 50px;
+
+}
+
+/* Footer Div */
+
+.footer {
+    bottom: -3rem;
+}
+
+.footer-top-row {
+    width:33.33%;
+}
+
+.footer-bottom-row {
+    width:33.33%;
+}

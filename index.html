@@ -7,6 +7,7 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="css/reset-css.css" type="text/css">
+    <link rel="stylesheet" media="only screen and (max-width: 325px)" href="css/tiny.css" type="text/css">
     <link rel="stylesheet" media="only screen and (max-width: 500px)" href="css/mobile.css" type="text/css">
     <link rel="stylesheet" media="only screen and (min-width: 501px)" href="css/tablet.css" type="text/css">
     <link rel="stylesheet" media="only screen and (min-width: 800px)" href="css/desktop.css" type="text/css">
@@ -19,8 +20,8 @@
     <!-- Navigation -->
     <div class="nav">
         <ul>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Store</a></li>
+            <li class="hide_mobile"><a href="#">About</a></li>
+            <li class="hide_mobile"><a href="#">Store</a></li>
             <li class="my-icon" style="float:right"><a href="https://github.com/Monfang" target="_blank">Icon</a></li>
             <li class="apps" style="float:right"><a href="#">Apps</a></li>
             <li style="float:right"><a href="#">Images</a></li>
@@ -34,23 +35,23 @@
             <div class="search-bar">
                 <img class="search" src="images/google-search.png" alt="google search icon">
                 <input class="form" type="text"><br>
-                <img class="mic" src="images/google-mic.png" alt="google microphone icon">  
+                <img class="mic hide_tiny" src="images/google-mic.png" alt="google microphone icon">  
             </div>
             <div class="buttons">
-                <button class="form" type="submit">Google Search</button>
-                <button class="form" type="submit">I'm Feeling Lucky</button> 
+                <button class="form hide_tiny" type="submit">Google Search</button>
+                <button class="form hide_tiny" type="submit">I'm Feeling Lucky</button> 
              </div>
         </form>
     </div>
     <!-- Footer -->
     <div class="footer">
         <ul>
-            <li><a href="#">Advertising</a></li>
-            <li><a href="#">Business</a></li>
-            <li><a href="#">How Search works</a></li>
-            <li style="float:right"><a href="#">Settings</a></li>
-            <li style="float:right"><a href="#">Terms</a></li>
-            <li style="float:right"><a href="#">Privacy</a></li>            
+            <li class="footer-top-row"><a href="#">Advertising</a></li>
+            <li class="footer-top-row"><a href="#">Business</a></li>
+            <li class="footer-top-row"><a href="#">About</a></li>
+            <li class="footer-bottom-row"><a href="#">Settings</a></li>
+            <li class="footer-bottom-row"><a href="#">Terms</a></li>
+            <li class="footer-bottom-row"><a href="#">Privacy</a></li>            
           </ul>
     </div>
         
