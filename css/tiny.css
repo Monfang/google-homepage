@@ -1,0 +1,6 @@
+/* CSS for Tiny View */
+
+/*Can be used to hide any element in tiny view*/
+.hide_tiny {
+    display: none;
+    }
