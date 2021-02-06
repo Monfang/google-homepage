@@ -41,6 +41,10 @@ ul {
     background: url(../images/my-icon.png) no-repeat;  
 }
 
+li.my-icon {
+    background-size: 32px 32px;
+}
+
 .apps {
     text-indent: -9999px;
     width: 50px;
@@ -49,6 +53,10 @@ ul {
     margin-left: 6px;
     background: url(../images/apps-icon.png) no-repeat;  
 }
+
+
+
+
 
 .main {
     text-align: center;
